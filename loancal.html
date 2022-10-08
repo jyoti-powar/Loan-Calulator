@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <style>
+        body{background-color: cornflowerblue;}
+        .bg{background-color: burlywood;height: 380px;width:350px;text-align: center; margin-left: 430px; margin-top: 100px; padding: 20px;}
+        input{height: 30px; width: 220px;}
+        button{background-color: rgb(237, 149, 86); height: 35px; width: 80px; border-radius: 20%;}
+        h1{color: crimson;}
+    </style>
+
+</head>
+<body>
+    <div class="bg">
+        <h1>Loan Calculator</h1>
+        <input type="text" id="amount" placeholder="Enter a amount" ><br><br>
+
+        <input type="text" id="interest" placeholder="Enter interest rate(%)" ><br><br>
+        <input type="text" id="duration" placeholder="Enter a Duration(in months)"><br><br>
+        <button onclick="loan()">Calculate</button>
+        <h2  id="prnt"></h2>
+        <h2 id="prnt1"></h2>
+        <h2 id="prnt2"></h2>
+    </div>
+    <script src="./javascript/loancal.js"></script>
+    
+</body>
+</html>
